@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#### Thomas added
+*.nc
+*.dirlock
+*.out
+*.lock
