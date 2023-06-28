@@ -1,0 +1,15 @@
+Starting jupyter notebook...
+
+Run the following command on your local computer:
+  ssh -N -L 8354:gadi-cpu-clx-0172.gadi.nci.org.au:8354 tm4888@gadi.nci.org.au
+Then open a browser and go to:
+  http://localhost:8354
+The Jupyter web interface will ask you for your password.
+
+To view the dask dashboard, enter the following into the dask labextension / new browser:
+  http://localhost:8354/proxy/<dashboard-port>/status
+where <dashboard-port> is the port serving your dashboard (8787 by default), for example:
+http://localhost:8354/proxy/8787/status
+
+Use Control-C to shut down this job...
+
